@@ -1,7 +1,11 @@
 # yii2-adldap-module
 
-[Yii2](http://www.yiiframework.com) extension for adLDAP (https://packagist.org/packages/adldap/adldap)
+[Yii2](http://www.yiiframework.com) extension for adLDAP (https://packagist.org/packages/stevebauman/adldap-fork)
 
+> **Note**: This is a fork of the main repository: [Main yii2-adldap-module](https://github.com/edvler/yii2-adldap-module).
+> It uses a different adLDAP repository, as the initial one is inactive.
+
+Originally written by Matthias Maderer (edvler@edvler-blog.de)
 
 ## Installation
 
@@ -12,11 +16,11 @@ The preferred way to install this extension is through [Composer](http://getcomp
 
 Either run
 
-	php composer.phar require edvlerblog/yii2-adldap-module "v1.0.0"
+	php composer.phar require etixlabs/yii2-adldap-module "v1.0.1"
 
 or add
 
-	"edvlerblog/yii2-adldap-module": "v1.0.0"
+	"etixlabs/yii2-adldap-module": "v1.0.1"
 
 to the require section of your composer.json
 

@@ -1,6 +1,6 @@
 {
-    "name": "edvlerblog/yii2-adldap-module",
-    "description": "yii2 adldap extention (wrapper for adldap/adLDAP Module)",
+    "name": "etixlabs/yii2-adldap-module",
+    "description": "yii2 adldap extention (wrapper for stevebauman/adLDAP-fork Module)",
     "type": "yii2-extension",
     "keywords": ["active directory","ldap","yii2", "adldap", "ad"],
     "homepage": "http://www.edvler-blog.de",
@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "adldap/adldap": "v4.0-stable"
+        "stevebauman/adldap-fork": "v4.0.5"
     },
     "autoload": {
         "psr-4" : {
